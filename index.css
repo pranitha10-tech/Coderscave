@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(198, 59, 69),rgb(26, 6, 77));
+    color: rgb(255, 255, 255);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    padding: 1.25rem;
+    display: flex;
+}
+.left, .right{
+    flex-basis: 50%;
+    padding: 1rem;
+}
+textarea{
+    box-shadow: 0 0 0.4rem rgb(116, 107, 107);
+    width: 100%;
+    height: 29.3%;
+    background-color: rgb(164, 138, 138);
+    color: rgb(8, 8, 8);
+    padding: 0.4rem 1.3rem;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    resize: none;
+    margin-bottom: -0.2rem;
+}
+label input{
+    background-color: rgb(128, 95, 95);
+    border: none;
+    outline: none;
+    width: 70%;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    padding-left: 0.5rem;
+    height: 1.2rem;
+}
+label button{
+    width: 1.6rem;
+    height: 1.2rem;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+iframe{
+    box-shadow: 0 0 0.4rem rgb(152, 146, 146);
+    width: 100%;
+    height: 95.8%;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+    border-radius: 0 0 1rem 1rem;
+}
+label img{
+    margin: 0.4rem 0.2rem 0.4rem 0.7rem ;
+    width: 1rem;
+}
+label{
+    box-shadow: 0 0 0.4rem rgb(81, 74, 79);
+    display: flex;
+    align-items: center;
+    background-color: rgb(111, 14, 30);
+    height: 1.7rem;
+    justify-content: space-between;
+}
+.labelbox{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-right: 1rem;
+    width: 50%;
+}
+.labelbox2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 1rem;
+    width: 50%;
+}
+
+#html, #out{
+    border-radius: 1rem 1rem 0 0;
+    
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 4.8rem;
+    justify-content: space-between;
+}
+#runimg{
+    filter: invert(100%);
+    margin: 0.2rem;
+}
+
+#btn{
+    margin-right: 1rem;
+    width: 1.6rem;
+}
+
+#jsCode{
+    border-radius: 0 0 1rem 1rem;
+}
+
+
+
+
+
+

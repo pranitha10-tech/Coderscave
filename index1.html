@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Online Code Editor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="main">
+            <div class="left">
+                <label id="html">
+                    <div class="labelbox"><img src="https://www.clipartkey.com/mpngs/m/210-2104705_html-logo-png-transparent-background.png" >HTML</div> 
+                    <div class="labelbox2"><br/><br/>
+                    </div>
+                </label>
+                <textarea id="htmlCode" class="textbox"></textarea>
+                <label>
+                    <div class="labelbox"><img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/css-beginners-tutorial.jpg" >CSS</div>
+                    <div class="labelbox2"><br/><br/>
+                    </div>
+                </label>
+                <textarea id="cssCode" class="textbox" ></textarea>
+                <label>
+                    <div class="labelbox"><img src="https://p1.hiclipart.com/preview/951/574/485/react-logo-javascript-redux-vuejs-angular-angularjs-expressjs-front-and-back-ends-png-clipart-thumbnail.jpg" >JavaScript</div>
+                    <div class="labelbox2"><br/><br/>
+                </div>
+                </label>
+                <textarea id="jsCode" class="textbox" ></textarea>
+            </div>
+            <div class="right">
+                <label id="out"><div class="labelbox"> Output</div><div class="btn"><button id="run" onclick="run()">run</button><button id="btn" onclick="goFullscreen('output'); return false">Reset</button></div></label>
+                <iframe id="output"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src='index2.js'></script>
+</body>
+</html>
